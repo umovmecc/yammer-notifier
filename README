@@ -1,0 +1,18 @@
+=== Dependencies:
+gem install yammer4r
+
+=== To get up and running
+
+Basically you need to generate an oauth.yam file so you can run notifyammer.rb script.
+
+1) Download script:
+curl -O https://github.com/jpatterson/yammer4r/blob/master/bin/yammer_create_oauth_yml.rb
+
+2) Create your yammer app
+https://www.yammer.com/client_applications/new
+
+3) Have with you consumer key and secret
+
+4) Run yammer_create_oauth_yml.rb script, that will generate a oauth.yam file 
+
+5) Now you are ready to play with notifyammer.rb
