@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
-# run this file using 
+# -------------------------------------
+# run this file using: 
 # ruby -r rubygems notifyammer.rb
+# -------------------------------------
 
 require 'yammer4r'
 
@@ -13,3 +15,5 @@ yammer = Yammer::Client.new(:config => config_path)
 # group_id is the number associated with a group, not its related slug. 
 yammer.message(:post, {:group_id => '12345', :body =>'sample message to be sent to yammer'});
 
+# to have more information about API
+# https://www.yammer.com/api_doc.html
